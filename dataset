@@ -1,0 +1,39 @@
+{
+  "Application": {
+    "Casa": {
+      "CMDBID": "104"
+    },
+    "Digital": {
+      "CMDBID": "103"
+    },
+    "InSight": {
+      "CMDBID": "102"
+    },
+    "NetCracker": {
+      "CMDBID": "101"
+    }
+  },
+  "TOPIC": {
+    "common.troubleTicketAPI.troubleTicket": {
+      "consumers": [
+        "Lynx",
+        "Remedy"
+      ],
+      "producers": [
+        "NetCracker",
+        "InSight"
+      ]
+    },
+    "customer.productOrderMgmtAPI.productOrder": {
+      "consumers": [
+        "Digital",
+        "MDM"
+      ],
+      "producers": [
+        "NetCracker",
+        "Digital",
+        "CASA"
+      ]
+    }
+  }
+}
