@@ -8,5 +8,5 @@ get_input[input_msg]{
 }
 
 get_data[data_msg]{
-  data_msg := sprintf("Data v2 is [%v]", [data.TOPIC])
+  data_msg := sprintf("Data v1 is [%v]", [data.global.data.TOPIC])
 }
